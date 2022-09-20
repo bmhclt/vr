@@ -41,7 +41,7 @@ var APP_DATA = {
           "yaw": 2.5162752102628163,
           "pitch": -0.07070290969875437,
           "title": "Television",
-          "text": "Text"
+          "text": "<a href='https://adm.bmhcare.in/info_portal/channels/directory/' target='_blank'>View TV Directory</a>"
         },
         {
           "yaw": 1.9414780527800248,
