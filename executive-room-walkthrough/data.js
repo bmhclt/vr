@@ -140,7 +140,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Executive Room",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
