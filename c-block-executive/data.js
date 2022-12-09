@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-c4-executive--1",
-      "name": "C4 Block - Executive Room",
+      "name": "C Block - Executive Room",
       "levels": [
         {
           "tileSize": 256,
@@ -74,7 +74,7 @@ var APP_DATA = {
       ]
     }
   ],
-  "name": "C4 Block - Executive Room",
+  "name": "C Block - Executive Room",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
