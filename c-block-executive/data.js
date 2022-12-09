@@ -24,9 +24,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.8140078890705915,
+        "pitch": 0.09066085552450787,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [],
       "infoHotspots": [
@@ -77,7 +77,7 @@ var APP_DATA = {
   "name": "C Block - Executive Room",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": false,
+    "autorotateEnabled": true,
     "fullscreenButton": false,
     "viewControlButtons": false
   }
