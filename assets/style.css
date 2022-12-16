@@ -25,6 +25,10 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
+  
+}
+
+.pano, .info-hotspot, .info-hotspot-title, #titleBar, .text {
   color: #fff;
 }
 
@@ -84,6 +88,7 @@ body.multiple-scenes.mobile #titleBar {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 1.5rem;
 
   -moz-user-select: text;
   -webkit-user-select: text;
@@ -275,6 +280,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 100%;
   background-color: rgb(58,68,84);
   background-color: rgba(58,68,84,0.8);
+  padding-inline-start: 0px;
 }
 
 .mobile #sceneList {
@@ -876,4 +882,36 @@ body.view-control-buttons .viewControlButton {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.info-hotspot-icon {
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.info-hotspot-icon:hover {
+  animation: none;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.97);
+		box-shadow: 0 0 0 0 rgba(7, 3, 252, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+	}
+	
+	100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+	}
+}
+
+@keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
 }

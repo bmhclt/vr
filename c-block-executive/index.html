@@ -5,11 +5,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="../assets/vendor/reset.min.css">
+<link rel="stylesheet" href="../assets/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/style.css">
 
 <script src="../assets/fontawesome/js/fontawesome.min.js"></script>
 <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
+
+<script src="../assets/jquery-3.6.2.min.js"></script>
+<script src="../assets/bootstrap.bundle.min.js"></script>
 
 </head>
 <body class="single-scene ">
@@ -63,6 +66,43 @@
 <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
   <img class="icon" src="../assets/img/minus.png">
 </a>
+
+<!-- start:: Welcome modal -->
+  <div 
+    class="modal fade" 
+    id="welcome-modal" 
+    tabindex="-1" 
+    role="dialog" 
+    aria-labelledby="exampleModalCenterTitle" 
+    aria-hidden="true"
+    data-keyboard="false" 
+    data-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title m-auto" style="font-size:1.5em;">
+                      Interactive Room Walkthrough
+                  </h5>
+              </div>
+              <div class="modal-body">
+                  <p>Welcome to the interactive room walkthrough. Here you can view a 360 degree view of your room.</p>
+                  <p><strong>Swipe left and right</strong>  to view the room facilities. <strong>Click on the icons</strong> to view additional details.</p>
+                  
+              </div>
+              <div class="modal-footer">
+                <button 
+                      type="button" 
+                      class="btn btn-primary btn-block"
+                      id="close-welcome-modal-btn"
+                  >
+                      <i class="fas fa-check-circle"></i>
+                      OK
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- end::Welcome modal -->
 
 <script src="../assets/vendor/screenfull.min.js" ></script>
 <script src="../assets/vendor/bowser.min.js" ></script>

@@ -392,3 +392,11 @@
   switchScene(scenes[0]);
 
 })();
+
+$(document).ready(function(){
+  $('#welcome-modal').modal('show');
+})
+
+$('#close-welcome-modal-btn').click(function(){
+  $('#welcome-modal').modal('hide');
+})
