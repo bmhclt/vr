@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BMH - C Block</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-c-ground---main-entrance">
+        <li class="text">C-Ground - Main Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-c-ground--c-main-reception-gift-shop--c-lobby">
+        <li class="text">C-Ground- C main reception, gift shop &amp; C lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-c-ground---gift-shop">
+        <li class="text">C-Ground-  Gift shop</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-c-ground---c-main-reception--c-block-lobby">
+        <li class="text">C-Ground - C main reception &amp; C block lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-c-ground--c-block-pharmacy--way-to-tdc">
+        <li class="text">C-Ground- C block pharmacy &amp; way to TDC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-c-ground-way-to-pharmacy-cardiac-op--lab-sample-collection">
+        <li class="text">C-Ground-Way to pharmacy, Cardiac OP &amp; lab sample collection</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-c-ground--c-block-reception--cardiac-op">
+        <li class="text">C-Ground- C block reception &amp; Cardiac OP</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-c-ground--way-to-echs-discharge--cafeteria">
+        <li class="text">C-Ground- way to ECHS, Discharge &amp; Cafeteria</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-c-ground--echs-discharge-billing-enmg-eeg--cafeteria">
+        <li class="text">C-Ground- ECHS, Discharge billing, ENMG, EEG &amp; Cafeteria</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-c-ground--enmg-eeg--cafeteria">
+        <li class="text">C-Ground- ENMG, EEG &amp; cafeteria</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-c-ground--x-ray">
+        <li class="text">C-Ground- X-ray</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-c-ground--ecg-echo-tmt--way-to-x-ray-pharmacy--cafeteria">
+        <li class="text">C-Ground- ECG, ECHO, TMT &amp; way to X-ray, Pharmacy &amp; Cafeteria</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-c-ground-cardiology-op">
+        <li class="text">C-Ground-Cardiology OP</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-c-ground--photostat-room--purchase-department">
+        <li class="text">C-Ground- Photostat room &amp; Purchase department</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-c-ground--lab-sample-collection-centre">
+        <li class="text">C-Ground- lab sample collection centre</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-c-ground--sample-collection-centre">
+        <li class="text">C-Ground- Sample collection centre</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-c-ground---accounts-lab-sample--report-collection">
+        <li class="text">C-Ground - Accounts, Lab Sample &amp; Report Collection</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-c-block-entry-form-b-passage">
+        <li class="text">C-Block entry form B passage</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BMH - A Block</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-a-ground-ed--canteen">
+        <li class="text">A-Ground-ED &amp; Canteen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-a-ground-main-entrance">
+        <li class="text">A-Ground-Main entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-a-ground-inside-engneering-support">
+        <li class="text">A-Ground-Inside Engneering support</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-a-ground-ortho-oplaundry--engneering-support-pmr--insurance-central-store--pharmacy">
+        <li class="text">A-Ground-Ortho OP,Laundry &amp; Engneering support, PMR,  Insurance, Central store &amp; Pharmacy</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-a-ground-a-pharmacy-central-store--way-to-a-block-1st-floor">
+        <li class="text">A-Ground-A Pharmacy, Central Store &amp; Way to A block 1st floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-a-ground-laundry--engneering-support">
+        <li class="text">A-Ground-Laundry &amp; Engneering support</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-a-1st-floor-b-ot-ops-cms-room--dept-of-speech-language-pathology">
+        <li class="text">A-1st floor-B OT, Ops, CMS room &amp; dept. of speech language pathology</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-a-1st-floor-cafeteria--way-to-2nd-floor--b-ot-opd--dept-of-speech-language-pathology">
+        <li class="text">A-1st floor-Cafeteria &amp; way to 2nd floor  (B OT, OPD &amp; Dept. of speech language pathology)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-a-2nd-floor-dialysisopdway-to-3rd-floor--passage-to-b-block">
+        <li class="text">A-2nd floor-Dialysis,OPD,way to 3rd floor &amp; passage to B block</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-a-3rd-floor---passage-to-dialysis-hrd-qms-hic--nursing-office">
+        <li class="text">A-3rd floor - passage to Dialysis, HRD, QMS, HIC &amp; Nursing Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-a--3rd-floor---hrd-qms-hic--nursing-office">
+        <li class="text">A- 3rd floor - HRD, QMS, HIC &amp; Nursing Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-a-4th-floor---passage-to-opd">
+        <li class="text">A-4th floor - Passage to OPD</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-a-4th-floor-opd--way-to-b-block">
+        <li class="text">A-4th floor-OPD &amp; way to B block</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
